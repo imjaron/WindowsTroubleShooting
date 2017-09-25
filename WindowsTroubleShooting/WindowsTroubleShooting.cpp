@@ -27,9 +27,11 @@ void Test2_1()
 
 int main()
 {
-	int b;
+	int b = 199;
 
-	clock_t c = clock();
+	cout << b << endl;
+
+	clock_t c = clock();;
 
 	Test2_1();
 
